@@ -143,10 +143,10 @@ $(function() {
     });
 
     $('#runTour').click(function() {
-        $('.smallipopTour').ksoftjquery('tour');
+        $('.ksoftjquerypTour').ksoftjquery('tour');
     });
 
-    // Animate smallipops when scrolling
+    // Animate ksoftjquery when scrolling
     if ($('.wobbler').length) {
         $(document).scroll(function() {
             var wobblers = $('.wobbler:not(.wobble)'),
